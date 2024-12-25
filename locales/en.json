@@ -1,0 +1,12 @@
+{
+    "menu_dialog": "Selling %s / %s max",
+    "menu_selling": "You are selling",
+
+
+    "amount": "Amount",
+    "sold": "You earned %s ",
+
+    "shop_empty": "This shop is empty",
+    "not_enough": "You dont have enough %s",
+    "not_allowed": "You are not allowed to use this shop"
+}
