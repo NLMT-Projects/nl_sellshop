@@ -106,9 +106,9 @@ CreateThread(function ()
         end
 
         for _, data in pairs(Config.Locations) do
-            for _,coords in each(data.Coords) do
-                if data.Blip and data.Blip.enabled and data.jobs then
-                    if HasGroup(data.jobs) then
+            if data.Blip and data.Blip.enabled and data.jobs then
+                if HasGroup(data.jobs) then
+                    for _,coords in each(data.Coords) do
                         local blip = CreateBlip({
                             coords = coords,
                             sprite = data.Blip.sprite,
